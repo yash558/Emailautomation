@@ -1,0 +1,40 @@
+.top_bar {
+  background: #171a21;
+}
+.social_icons {
+  margin-left: 69rem;
+  display: flex;
+  flex-direction: wrap;
+  padding-top: 1rem;
+}
+
+.vertical_line {
+  border-left: 3px solid #363a44;
+  height: 25px;
+  position: absolute;
+  left: 92%;
+}
+
+.social_icons .github_icon,
+.docs_icon,
+.sign_icon {
+  color: white;
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 4rem;
+}
+.social_icons i {
+  font-size: 15px;
+}
+
+.social_icons .icon_title {
+  margin-left: 7px;
+  font-size: 15px;
+}
+
+.social_icons .icon_title .signin,
+.github {
+  color: #fff;
+  text-decoration: none;
+}

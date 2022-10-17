@@ -1,0 +1,44 @@
+.home_page {
+  background: #0b0e15;
+  height: 900px;
+}
+
+.home_nav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 18px;
+  margin-left: 40px;
+}
+
+.home_nav .nav_btn {
+  margin-left: 75rem;
+}
+.nav_title {
+  color: white;
+  font-family: "inter";
+}
+
+.nav_title span {
+  color: #0070e7;
+}
+
+.nav-btn button {
+  font-weight: 500;
+}
+
+.home_desc{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home_desc .home_desc_1 h1{
+  font-size: 72px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.home_desc .home_desc_btn button{
+    font-size: 1.4rem;
+    font-weight: 'inter';
+}
